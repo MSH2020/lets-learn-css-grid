@@ -1,0 +1,13 @@
+
+* {
+    /* RESET */
+    box-sizing: border-box;
+    /* DEMO */
+    border: 1px dashed #999;
+}
+
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
