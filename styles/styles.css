@@ -7,11 +7,22 @@
 }
 
 .grid-container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    border:  1px solid black;
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
-header{
+
+.grid-item {
+    border:  1px solid black;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* header{
     grid-column: 1 / 4;
 }
 
@@ -25,4 +36,4 @@ aside{
 
 footer{
     grid-column: 1 / 4;
-}
+} */
